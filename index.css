@@ -1,0 +1,142 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: auto;
+  background-color: hsl(225, 100%, 94%);
+  padding: 20px 0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+  margin: auto;
+  width: 368px;
+  height: 100%;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.image img{
+  width: 368px;
+  border-radius: 20px  20px 0 0;
+}
+
+.white h3{
+padding: 20px;
+}
+
+.white p{
+  padding: 20px;
+  position: relative;
+  top: -20px;
+  line-height: 25px;
+  color: hsl(223, 47%, 23%);
+  opacity: 0.8;
+}
+
+.plan{
+  margin: auto;
+  padding: 10px;
+  width: 300px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  top: -20px;
+}
+
+.price{
+  /* height: 1px; */
+  font-weight: 500;
+  color: hsl(223, 47%, 23%);
+  opacity: 0.5;
+}
+.change{
+  font-size: 14px;
+  font-weight: 700;
+  position: relative;
+  margin-left: 45px;
+}
+
+.change:hover{
+  text-decoration: none;
+}
+
+.sub{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 20px;
+  
+}
+
+.button{
+  padding: 20px;
+  position: relative;
+  top: -10px;
+}
+
+.btn{
+  cursor: pointer;
+  border: none;
+  color: white;
+  width: 300px;
+  height: 45px;
+  background-color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  border-radius: 10px;
+  box-shadow:   rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.btn:hover{
+  background-color: hsl(245, 100%, 68%) ;
+}
+
+.btn1{
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color:hsl(223, 47%, 23%);
+  font-weight: 700;
+  padding: 20px;
+  opacity: 0.5;
+  font-weight: 800;
+}
+
+.btn1:hover{
+  color: black;
+  opacity: 1;
+}
+
+.attribution{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+}
+
+.attribution a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 600px)  {
+ body{
+  background-image: url('images/pattern-background-desktop.svg');
+background-repeat: no-repeat;
+}
+  
+  .container{
+    box-shadow:   rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+ } 
